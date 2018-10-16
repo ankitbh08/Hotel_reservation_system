@@ -1,0 +1,60 @@
+#slideshow {
+  
+  
+  width: 800px;;
+  height: 800px;
+  
+ 
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+input[type=date] {
+    border: 3px solid #413947;
+	border-radius:15px;
+}
+input[type=date]:focus {
+    border: 3px solid #555;
+}
+input[type=date]:hover {
+    border: 3px solid #555;
+	border-radius:15px;
+	cursor:pointer;
+}
+.price{
+	border: 3px groove #f4ce42;
+	border-radius:15px;
+	width:50%;
+	height:10%;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+input[type=submit]:focus{
+	border: 3px solid #555;
+	background:#f4dd86;
+}
+
+input[type=submit]:hover{
+	border: 3px solid #555;
+	background:#ddb725;
+}
+input[type=submit]{
+	color: white;
+  background: #f4ce42;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  overflow: hidden;
+  width:200px;
+  margin-left:-100px;
+}
